@@ -125,6 +125,7 @@ body {
 
   .main-menu__link-logo {
     margin: 16px 16px 0 0;
+    max-width: 224px;
   }
 }
 
