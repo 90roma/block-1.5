@@ -4,21 +4,27 @@
 }
 
 .mobile__swiper-wrapper {
-    width: 240px;
-    height: 78px;
-    margin: 16px 16px 0 16px;
+    padding-left: 16px;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 240px;
+    max-height: 72px;
+    background-color: white;
+    border: 1px solid #EAEAEA;
     border-radius: 6px;
 }
 
 .mobile__swiper-slide,
 .mobile__swiper-slide-active {
-    background: none;
-    display: flex;
-    justify-content: center;*/
-    align-items: center;
+    margin: 16px 16px 0 0;
+    padding: 16px;
 }
 
-.swiper-container-horizontal>.swiper-pagination-bullets,
+.swiper-container-horizontal > .swiper-pagination-bullets,
 .swiper-pagination-custom,
 .swiper-pagination-fraction {
     bottom: -5px;
